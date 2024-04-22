@@ -15,19 +15,19 @@ header, footer {
     padding: 20px;
 }
 
-nav ul {
+header.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-nav ul li {
+header.nav ul li {
     display: inline;
     margin-right: 20px;
 }
 
-nav ul li a {
+header.nav ul li a {
     color: #333;
     text-decoration: none;
     padding: 5px 10px;
@@ -35,7 +35,7 @@ nav ul li a {
     background-color: #ccc;
 }
 
-nav ul li a:hover {
+header.nav ul li a:hover {
     background-color: #666;
     color: #fff;
 }
