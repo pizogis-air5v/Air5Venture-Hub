@@ -18,11 +18,10 @@ ul {
     padding: 0;
     overflow: hidden;
   }
-
+  
   li {
     float: left;
   }
-
 
  li a {
     color: #eee;
@@ -37,7 +36,6 @@ li a:hover {
     background-color: #666;
     color: #fff;
 }
-
 
 #gameContainer {
     width: 100%;
