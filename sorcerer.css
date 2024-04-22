@@ -6,14 +6,13 @@ body {
 }
 
 ul {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
 }
 
   li {
