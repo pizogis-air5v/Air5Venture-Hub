@@ -3,77 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air5Venture - Great Sorcerer</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Additional styles for typewriter effect */
-        #typewriter {
-            overflow: hidden; /* Ensure text doesn't overflow */
-            border-right: .15em solid orange; /* Cursor effect */
-            white-space: nowrap; /* Prevent line breaks */
-            margin: 0 auto; /* Center text */
-            letter-spacing: .15em; /* Adjust letter spacing */
-            animation: typing 3s steps(40, end); /* Typewriter animation */
-        }
-
-        /* Keyframes for typewriter animation */
-        @keyframes typing {
-            from {
-                width: 0; /* Start with no width */
-            }
-            to {
-                width: 100%; /* End with full width */
-            }
-        }
-    </style>
+    <title>The Great Sorcerer's Dialogue</title>
+    <link rel="stylesheet" href="sorcerer.css">
 </head>
-<body style="background-color: forestgreen;">
-    <header>
-        <h1>Welcome to Air5Venture Game Portal</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="games.html">Games</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="#">Great Sorcerer</a></li>
-            <li><a href="adventure.html">Adventure</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="content">
-        <h2>The Mysterious Scroll</h2>
-        <p>As you delve into the ancient scrolls of the Great Sorcerer's library, you stumble upon a peculiar parchment. It reads:</p>
-        <!-- Text container for typewriter effect -->
-        <div id="typewriter">
-            <p>"In a land of pixels and bytes,<br>
-                A small hero counts the nights.<br>
-                With dated style, a journey old,<br>
-                A tale of numbers, brave and bold.<br>
-                Seek out this quest, embrace the score,<br>
-                The adventure begins, seek no more."</p>
-            </div>
-            <p>Could this be a clue to Air5Venture's next game?</p>
-        </section>
-        <footer>
-            <p>&copy; 2024 Air5Venture</p>
-        </footer>
-        <script>
-            // JavaScript to control typewriter animation
-            const text = document.getElementById('typewriter').innerText;
-            document.getElementById('typewriter').innerText = '';
-    
-            let i = 0;
-            function typeWriter() {
-                if (i < text.length) {
-                    document.getElementById('typewriter').innerHTML += text.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, 50); // Adjust typing speed here (milliseconds)
-                }
-            }
-    
-            typeWriter(); // Start typewriter effect
-        </script>
-    </body>
-    </html>
-    
+<body>
+    <div id="gameContainer">
+        <div id="dialogueContainer">
+            <img src="sorcerer_img.png" alt="Great Sorcerer" id="sorcererImg">
+            <div id="dialogueText">Greetings, adventurer! What brings you to seek my wisdom?</div>
+            <button id="nextButton">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
