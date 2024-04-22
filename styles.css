@@ -8,34 +8,34 @@ body {
     color: #eee;
 }
 
-header, footer {
+ul, footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
-nav ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
-}
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
+ li a {
     color: #333;
     text-decoration: none;
-    padding: 5px 10px;
+    display: block;
+    padding: 8px;
     border-radius: 5px;
     background-color: #ccc;
 }
 
-nav ul li a:hover {
+li a:hover {
     background-color: #666;
     color: #fff;
 }
