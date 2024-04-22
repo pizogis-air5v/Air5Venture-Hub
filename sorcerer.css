@@ -57,6 +57,8 @@ li a:hover {
 #sorcererImg {
     width: 100px; /* Adjust size as needed */
     height: auto;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
