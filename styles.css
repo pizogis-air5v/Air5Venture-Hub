@@ -37,7 +37,7 @@ ul {
     display: block;
     padding: 8px;
     border-radius: 5px;
-    background-color: none;
+    background-color: #444;
 }
 
 li a:hover {
